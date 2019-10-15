@@ -11,3 +11,4 @@ To deploy these dialogues to your talksuite organisation. To do so:
 
 In talksuite your bot should be configured with:
 * The "Briefing" project
+* An active briefing process

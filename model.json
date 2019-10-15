@@ -1,0 +1,238 @@
+{
+  "luis_schema_version": "5.0.0",
+  "versionId": "0.1",
+  "name": "Retail Stores",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "openinghours"
+    },
+    {
+      "name": "returnpolicy"
+    },
+    {
+      "name": "stockcheck"
+    }
+  ],
+  "entities": [
+    {
+      "name": "product",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    },
+    {
+      "name": "geographyV2",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "any bread in stock?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "any pens in stock?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 4,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "do you carry blocky bread?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 13,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "do you have a blocky loaf?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 14,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "do you have any pens left in stock?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 16,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "do you have block bread?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 12,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "how long do i have to return",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "how many pens do you have?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 9,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "how to return",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "mhr-introduction",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nottingham",
+      "intent": "openinghours",
+      "entities": []
+    },
+    {
+      "text": "nottingham store opening hours",
+      "intent": "openinghours",
+      "entities": []
+    },
+    {
+      "text": "red t-shirt in stock?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 0,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "return policy",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "return window",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "returning clothes",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "returning items",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "shirt in stock?",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "stock check for pends",
+      "intent": "stockcheck",
+      "entities": [
+        {
+          "entity": "product",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "what are the opening hours?",
+      "intent": "openinghours",
+      "entities": []
+    },
+    {
+      "text": "what is the return policy?",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "what's the opening hours for the nottingham store?",
+      "intent": "openinghours",
+      "entities": []
+    },
+    {
+      "text": "whats the return policy",
+      "intent": "returnpolicy",
+      "entities": []
+    },
+    {
+      "text": "when do you open tomorrow",
+      "intent": "openinghours",
+      "entities": []
+    },
+    {
+      "text": "when do you open?",
+      "intent": "openinghours",
+      "entities": []
+    },
+    {
+      "text": "when is the nottingham store open?",
+      "intent": "openinghours",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
