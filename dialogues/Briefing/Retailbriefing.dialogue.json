@@ -1,0 +1,21 @@
+{
+  "attributes": {
+    "json": {
+      "id": "Retail briefing",
+      "trigger": {
+        "type": "process",
+        "name": "brief",
+        "precedence": "start"
+      },
+      "nodes": [
+        {
+          "type": "message",
+          "message": "Good morning James. Here are some things that should keep your morning bright!"
+        }
+      ]
+    }
+  },
+  "projectId": "6bf39331-1afc-42bd-9a78-0107bb990be4",
+  "type": "dialogue",
+  "id": "9a938e44-4655-4cd8-ab20-ad422f4a4b0f"
+}
